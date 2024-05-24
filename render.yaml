@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-app
+    name: video_merge
     env: node
     buildCommand: |
       apt-get update && apt-get install -y ffmpeg
